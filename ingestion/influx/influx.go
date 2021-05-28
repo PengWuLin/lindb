@@ -75,8 +75,14 @@ func getPrecisionMultiplier(precision string) int64 {
 		return -1e6
 	case "us":
 		return -1e3
+	case "ms":
+		return 1
 	case "s":
 		return 1000
+	case "m":
+		return 1000 * 60
+	case "h":
+		return 1000 * 3600
 	default:
 		return 1
 	}
