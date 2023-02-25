@@ -11,7 +11,6 @@ require (
 	github.com/damnever/goctl v1.2.0
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/dustin/go-humanize v1.0.0 // indirect
-	github.com/fatih/color v1.12.0 // indirect
 	github.com/gin-contrib/cors v1.3.1
 	github.com/gin-gonic/gin v1.7.2
 	github.com/go-ole/go-ole v1.2.4 // indirect
@@ -31,7 +30,6 @@ require (
 	github.com/prometheus/client_golang v1.0.0
 	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4
 	github.com/prometheus/common v0.4.1
-	github.com/rakyll/gotest v0.0.6 // indirect
 	github.com/shirou/gopsutil v3.21.5+incompatible
 	github.com/spf13/cobra v0.0.3
 	github.com/stretchr/testify v1.4.0
@@ -41,7 +39,7 @@ require (
 	go.etcd.io/etcd v0.5.0-alpha.5.0.20200320040136-0eee733220fc
 	go.uber.org/atomic v1.6.0
 	go.uber.org/zap v1.14.1
-	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22
+	golang.org/x/sys v0.1.0
 	google.golang.org/grpc v1.26.0
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
